@@ -4,7 +4,7 @@
         <TargetFrameworks>net462;netstandard2.1</TargetFrameworks>
         <LangVersion>8.0</LangVersion>
         <Nullable>enable</Nullable>
-        <Version>3.3.6</Version>
+        <Version>3.3.7</Version>
         <Description>Minecraft Launcher Library for .NET
 Support all version, forge, optifine
         </Description>
@@ -19,12 +19,6 @@ Support all version, forge, optifine
         <Authors>AlphaBs</Authors>
         <PackageReleaseNotes />
         <PackageId>CmlLib.Core</PackageId>
-        
-        <WeaverConfiguration Condition="'$(Configuration)' == 'Debug'">
-            <Weavers>
-                <MethodTimer />
-            </Weavers>
-        </WeaverConfiguration>
     </PropertyGroup>
 
     <ItemGroup>

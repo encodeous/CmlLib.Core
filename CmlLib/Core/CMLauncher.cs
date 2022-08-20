@@ -39,7 +39,7 @@ namespace CmlLib.Core
         public event ProgressChangedEventHandler? ProgressChanged;
         public event EventHandler<string>? LogOutput;
         
-        private readonly IProgress<DownloadFileChangedEventArgs> pFileChanged;
+        public readonly IProgress<DownloadFileChangedEventArgs> pFileChanged;
         private readonly IProgress<ProgressChangedEventArgs> pProgressChanged;
 
         public MinecraftPath MinecraftPath { get; private set; }

@@ -6,7 +6,7 @@ namespace CmlLib.Core
 {
     public class MinecraftPath
     {
-        public static readonly string
+        public static string
     MacDefaultPath = Environment.GetEnvironmentVariable("HOME") + "/Library/Application Support/minecraft",
     LinuxDefaultPath = Environment.GetEnvironmentVariable("HOME") + "/.minecraft",
     WindowsDefaultPath = Environment.GetEnvironmentVariable("appdata") + "\\.minecraft";

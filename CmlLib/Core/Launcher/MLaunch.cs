@@ -42,6 +42,7 @@ namespace CmlLib.Core
                 useNotNull(launchOption.GetStartVersion().JavaBinaryPath, launchOption.GetJavaPath()) ?? "";
             mc.StartInfo.Arguments = arg;
             mc.StartInfo.WorkingDirectory = minecraftPath.BasePath;
+            mc.StartInfo.RedirectStandardOutput = true;
 
             return mc;
         }
